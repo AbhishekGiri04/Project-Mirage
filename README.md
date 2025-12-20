@@ -125,8 +125,8 @@ Project Mirage — Invisibility Cloak System/
 
 | 📍 Feature                   | 📸 Screenshot                                              |
 |:----------------------------|:-----------------------------------------------------------|
-| Home Page                   | ![Home Page](docs/Original_Image.png)        |
-| Live Demo Features          | ![Features](docs/Tested_Image.png)                   |
+| Home Page                   | ![Home Page](docs/Home_Page.png)        |
+| Live Demo Features          | ![Features](docs/Features_Page.png)                   |
 | Original Feed               | ![Original Feed](docs/Original_Image.png)          |
 | Invisibility Effect         | ![Tested Result](docs/Tested_Image.png)    |
 
