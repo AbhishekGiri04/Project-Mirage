@@ -276,8 +276,9 @@ GET /health           # Service status
    - Start: `python run.py`
 
 ### Update URLs
-- Edit `frontend/.env.production` with your Render backend URL
-- Edit `backend/main.py` CORS with your Vercel frontend URL
+- Frontend: https://mirage-dev-v1.vercel.app
+- Backend: https://mirage-dev-v1.onrender.com
+- WebSocket: wss://mirage-dev-v1.onrender.com/ws
 
 <br>
 

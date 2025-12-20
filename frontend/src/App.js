@@ -150,7 +150,7 @@ function App() {
             <button className="btn-primary" onClick={() => document.getElementById('demo').scrollIntoView({behavior: 'smooth'})}>
               Launch Demo
             </button>
-            <button className="btn-secondary" onClick={() => window.open('https://github.com/abhishekgiri04', '_blank')}>
+            <button className="btn-secondary" onClick={() => window.open('https://github.com/AbhishekGiri04/Project-Mirage/', '_blank')}>
               Source Code
             </button>
           </div>

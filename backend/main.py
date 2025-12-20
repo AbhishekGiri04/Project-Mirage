@@ -13,9 +13,8 @@ app = FastAPI(title="🎭 Project Mirage - Invisibility Cloak API")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://your-vercel-app.vercel.app",  # Replace with your Vercel URL
+        "https://mirage-dev-v1.vercel.app",  # Vercel frontend URL
         "http://localhost:3000",  # For local development
-        "*"  # Remove this in production
     ],
     allow_credentials=True,
     allow_methods=["*"],
