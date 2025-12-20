@@ -109,13 +109,19 @@ Project Mirage — Invisibility Cloak System/
 │   ├── 📂 src/
 │   │   ├── 📄 App.js               # ⚛️ Main React component
 │   │   ├── 📄 App.css              # 🎨 Modern styling
+│   │   ├── 📄 HowItWorks.css       # 🎨 Additional styling
 │   │   └── 📄 index.js             # 🚀 Entry point
+│   ├── 📄 .env.production          # 🔐 Production environment
 │   ├── 📄 package.json             # 📦 React dependencies
 │   └── 📄 package-lock.json        # 🔒 Dependency lock file
 ├── 📂 docs/                        # 📸 Documentation and screenshots
+│   ├── 📄 Features_Page.png        # 🖼️ Features page screenshot
+│   ├── 📄 Home_Page.png            # 🖼️ Home page screenshot
 │   ├── 📄 Original_Image.png       # 🖼️ Original test image
 │   └── 📄 Tested_Image.png         # 🖼️ Processed test result
 ├── 📄 original_invisibility_cloak.py # 🎭 Original OpenCV version
+├── 📄 render.yaml                  # 🚀 Render deployment config
+├── 📄 vercel.json                  # ⚡ Vercel deployment config
 ├── 📄 .gitignore                   # 🚫 Git ignore rules
 └── 📄 README.md                    # 📖 Project documentation
 ```
@@ -248,6 +254,31 @@ WS  /ws               # WebSocket for real-time processing
 GET /                 # Health check
 GET /health           # Service status
 ```
+<br>
+
+---
+
+## 🚀 Production Deployment
+
+### Frontend (Vercel)
+1. **Connect GitHub to Vercel:**
+   - Go to https://vercel.com
+   - Import your GitHub repository
+   - Root Directory: `frontend`
+   - Deploy
+
+### Backend (Render)
+1. **Connect GitHub to Render:**
+   - Go to https://render.com
+   - Create new Web Service
+   - Root Directory: `backend`
+   - Build: `pip install -r requirements.txt`
+   - Start: `python run.py`
+
+### Update URLs
+- Edit `frontend/.env.production` with your Render backend URL
+- Edit `backend/main.py` CORS with your Vercel frontend URL
+
 <br>
 
 ---
