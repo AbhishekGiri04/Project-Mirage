@@ -43,7 +43,7 @@ function App() {
       .catch(err => console.error('Camera access denied:', err));
 
     // Connect to WebSocket
-    const websocket = new WebSocket('ws://localhost:8000/ws');
+    const websocket = new WebSocket(process.env.REACT_APP_WS_URL || 'ws://localhost:8000/ws');
     
     websocket.onopen = () => {
       setIsConnected(true);

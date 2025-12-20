@@ -5,12 +5,18 @@ import numpy as np
 import base64
 import json
 import time
+import os
 
 app = FastAPI(title="🎭 Project Mirage - Invisibility Cloak API")
 
+# CORS for production
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "https://your-vercel-app.vercel.app",  # Replace with your Vercel URL
+        "http://localhost:3000",  # For local development
+        "*"  # Remove this in production
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
