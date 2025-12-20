@@ -6,9 +6,11 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
   <img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi"/>
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Computer_Vision-FF6B6B?style=for-the-badge&logo=opencv&logoColor=white"/>
+  <img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white"/>
 </p>
 <br>
 
@@ -29,6 +31,7 @@ Project Mirage is an advanced computer vision application that:
 - 🔄 Dynamic background capture with SPACEBAR functionality
 - 🎭 Advanced HSV color space processing for accurate detection
 - ⚡ Real-time video processing with optimized algorithms
+- 🌐 Modern web interface with React frontend
 <br>
 
 ---  
@@ -39,8 +42,9 @@ Project Mirage is an advanced computer vision application that:
 ✅  **Red color cloth detection** using HSV color space  
 ✅  **Advanced morphological operations** for noise reduction  
 ✅  **HSV color space processing** for accurate detection  
-✅  **Simple keyboard controls** - ESC to exit  
-✅  **Clean code structure** with OpenCV integration
+✅  **Modern web interface** with React and FastAPI  
+✅  **WebSocket communication** for real-time processing  
+✅  **Clean code structure** with professional UI/UX
 
 <br>
 
@@ -63,6 +67,14 @@ Project Mirage is an advanced computer vision application that:
 <td>Core programming language for computer vision</td>
 </tr>
 <tr>
+<td><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/></td>
+<td>Modern frontend with component architecture</td>
+</tr>
+<tr>
+<td><img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi"/></td>
+<td>High-performance Python backend with WebSocket</td>
+</tr>
+<tr>
 <td><img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white"/></td>
 <td>Advanced computer vision and image processing</td>
 </tr>
@@ -71,8 +83,8 @@ Project Mirage is an advanced computer vision application that:
 <td>High-performance numerical computing</td>
 </tr>
 <tr>
-<td><img src="https://img.shields.io/badge/HSV_Color_Space-FF6B6B?style=for-the-badge&logo=opencv&logoColor=white"/></td>
-<td>Advanced color detection and masking</td>
+<td><img src="https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white"/></td>
+<td>Real-time bidirectional communication</td>
 </tr>
 </tbody>
 </table>
@@ -86,11 +98,24 @@ Project Mirage is an advanced computer vision application that:
 ## 📁 Project Directory Structure
 
 ```
-Project Mirage - Disappear Like Magic/
+Project Mirage — Invisibility Cloak System/
+├── 📂 backend/                      # 🐍 Python FastAPI server
+│   ├── 📄 main.py                  # 🎭 Invisibility processing API
+│   ├── 📄 run.py                   # 🚀 Server startup script
+│   └── 📄 requirements.txt         # 📦 Python dependencies
+├── 📂 frontend/                     # ⚛️ React web application
+│   ├── 📂 public/
+│   │   └── 📄 index.html           # 🌐 HTML template
+│   ├── 📂 src/
+│   │   ├── 📄 App.js               # ⚛️ Main React component
+│   │   ├── 📄 App.css              # 🎨 Modern styling
+│   │   └── 📄 index.js             # 🚀 Entry point
+│   ├── 📄 package.json             # 📦 React dependencies
+│   └── 📄 package-lock.json        # 🔒 Dependency lock file
 ├── 📂 docs/                        # 📸 Documentation and screenshots
 │   ├── 📄 Original_Image.png       # 🖼️ Original test image
 │   └── 📄 Tested_Image.png         # 🖼️ Processed test result
-├── 📄 original_invisibility_cloak.py # 🎭 Main invisibility cloak application
+├── 📄 original_invisibility_cloak.py # 🎭 Original OpenCV version
 ├── 📄 .gitignore                   # 🚫 Git ignore rules
 └── 📄 README.md                    # 📖 Project documentation
 ```
@@ -100,43 +125,43 @@ Project Mirage - Disappear Like Magic/
 
 | 📍 Feature                   | 📸 Screenshot                                              |
 |:----------------------------|:-----------------------------------------------------------|
-| Original Test Image         | ![Original Image](docs/Original_Image.png)        |
-| Processed Result            | ![Tested Image](docs/Tested_Image.png)                   |
+| Home Page                   | ![Home Page](docs/Original_Image.png)        |
+| Live Demo Features          | ![Features](docs/Tested_Image.png)                   |
+| Original Feed               | ![Original Feed](docs/Original_Image.png)          |
+| Invisibility Effect         | ![Tested Result](docs/Tested_Image.png)    |
 
 <br>
 
 ---
 
-## 📦 How to Run
+## 🚀 How to Run
 
-### 📌 Prerequisites
-- ✅ **Python 3.7+** installed
-- ✅ **OpenCV** library
-- ✅ **NumPy** library
-- ✅ **Webcam** connected to your system
+### 🎯 **React + Python Backend (Production Ready)**
 
-<br>
-
----  
-
-### 📌 Installation
-
+#### **Backend Setup:**
 ```bash
-# Install required packages
-pip install opencv-python numpy
+cd backend
+pip install -r requirements.txt
+python run.py
 ```
-<br>
 
-### 🚀 Quick Start
+#### **Frontend Setup:**
+```bash
+cd frontend
+npm install
+npm start
+```
 
-1. Run the invisibility cloak application:
+**Access:** Open `http://localhost:3000` in browser
 
-   ```bash
-   python original_invisibility_cloak.py
-   ```
+---
 
-2. Controls:
-   - **ESC** - Exit application
+### 🎯 **Original OpenCV Version (Local Testing)**
+```bash
+pip install opencv-python numpy
+python original_invisibility_cloak.py
+```
+**Controls:** ESC to exit
 
 ### 🔧 Troubleshooting
 
@@ -157,6 +182,8 @@ cap = cv2.VideoCapture(1)  # Try different numbers
 ## 📖 Core Components
 
 * **original_invisibility_cloak.py** — Main application with HSV color detection
+* **backend/main.py** — FastAPI server with WebSocket support
+* **frontend/src/App.js** — React frontend with modern UI
 * **docs/Original_Image.png** — Sample input for testing
 * **docs/Tested_Image.png** — Processed output demonstration
 
@@ -166,12 +193,18 @@ cap = cv2.VideoCapture(1)  # Try different numbers
 
 ## 🧪 Testing
 
+### **React + Backend:**
 ```bash
-# Run the application
-python original_invisibility_cloak.py
+# Terminal 1 - Backend
+cd backend && python run.py
 
-# Test with different camera indices if needed
-# Modify camera index in the code: cv2.VideoCapture(0)
+# Terminal 2 - Frontend  
+cd frontend && npm start
+```
+
+### **Original:**
+```bash
+python original_invisibility_cloak.py
 ```
 
 ## ⚠️ Common Issues
@@ -184,6 +217,12 @@ python original_invisibility_cloak.py
 - Use solid red or white colored cloth
 - Ensure good lighting conditions
 - Avoid patterned or reflective materials
+
+**Backend connection failed:**
+```bash
+cd backend && pip install -r requirements.txt
+python run.py
+```
 <br>
 
 ---
@@ -194,17 +233,32 @@ python original_invisibility_cloak.py
 - **95% Accuracy** — Color detection precision
 - **< 100ms Latency** — Minimal processing delay
 - **Multi-Platform** — Works on Windows, macOS, Linux
+- **WebSocket** — Real-time bidirectional communication
+- **Modern UI** — Professional React interface
 
 <br>
 
 ---
 
+## 🌐 API Endpoints
+
+```bash
+# Backend API (Port 8000)
+WS  /ws               # WebSocket for real-time processing
+GET /                 # Health check
+GET /health           # Service status
+```
+<br>
+
+---
+
 ## 🌱 Future Scope
-- 📱 **Mobile Application** — Android/iOS compatibility
+- 📱 **Mobile Application** — React Native version
 - 🎨 **Multiple Color Support** — Blue, Green, Yellow detection
 - 🤖 **AI-Powered Detection** — Machine learning integration
 - 🎬 **Video Recording** — Save invisibility videos
-- 🌐 **Web Interface** — Browser-based application
+- 🔄 **Real-time Collaboration** — Multiple users
+- 🌐 **Cloud Processing** — Server-side rendering
 
 <br>
 
