@@ -122,6 +122,7 @@ Project Mirage — Invisibility Cloak System/
 ├── 📄 original_invisibility_cloak.py # 🎭 Original OpenCV version
 ├── 📄 render.yaml                  # 🚀 Render deployment config
 ├── 📄 vercel.json                  # ⚡ Vercel deployment config
+├── 📄 LICENSE                      # 📜 MIT License
 ├── 📄 .gitignore                   # 🚫 Git ignore rules
 └── 📄 README.md                    # 📖 Project documentation
 ```
@@ -299,7 +300,7 @@ GET /health           # Service status
 ## 📞 Help & Contact  
 
 > 💬 *Got questions or need assistance with Project Mirage?*  
-> We're here to help with technical support and collaboration!
+> We're here to help with integration and customization!
 
 <div align="center">
 
@@ -313,6 +314,14 @@ GET /health           # Service status
 <a href="https://t.me/AbhishekGiri7">
   <img src="https://img.shields.io/badge/Chat%20on-Telegram-blue?style=for-the-badge&logo=telegram" alt="Telegram - Abhishek Giri"/>
 </a>
+
+<br/>
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 <br/>
 
