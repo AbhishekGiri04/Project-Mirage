@@ -323,8 +323,6 @@ GET /health           # Service status
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-<br/>
-
 ---
 
 **🎭 Built with ❤️ for Computer Vision Excellence**  
