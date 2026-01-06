@@ -314,7 +314,7 @@ function App() {
           </div>
 
           <div className="footer-bottom">
-            <p>&copy; 2025 Project Mirage. All Rights Reserved.</p>
+            <p>&copy; 2026 Project Mirage. All Rights Reserved.</p>
           </div>
         </div>
       </footer>
